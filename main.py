@@ -8,3 +8,5 @@ from datetime import datetime
 # Crear cliente de Binance
 api_key = config.api_key
 api_secret = config.api_secret
+
+#bot
