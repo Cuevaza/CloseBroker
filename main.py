@@ -45,6 +45,9 @@ while True:
             # Sumar el valor en USDT al total
             suma_total_usdt += valor_en_usdt
 
+    # Redondear la suma total a 2 decimales
+    suma_total_usdt = round(suma_total_usdt, 2)
+
     # Imprimir y registrar la suma total de los balances en USDT
     print(f'La suma total de los balances en USDT es {suma_total_usdt}')
     with open('log balance spot.csv', 'a', newline='') as f:
