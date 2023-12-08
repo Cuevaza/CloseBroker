@@ -39,7 +39,7 @@ while True:
                     # Convertir el balance a USDT
                     valor_en_usdt = balance * precio_en_usdt
                 except Exception as e:
-                    print(f"No se pudo obtener el precio para {activo['asset']}USDT: {e}")
+                    #print(f"No se pudo obtener el precio para {activo['asset']}USDT: {e}")
                     continue
 
             # Sumar el valor en USDT al total
